@@ -113,9 +113,9 @@ $row-width: rem-calc(1600);
 // $steel       : #666666;
 // $charcoal    : #555555;
 // $tuatara     : #444444;
-// $oil         : #333333;
-// $jet         : #222222;
-// $black       : #000000;
+ $oil         : #333333;
+ $jet         : #222222;
+ $black       : #000000;
 $orange 		: #ffa500;
 
 // We use these as default colors throughout
@@ -259,8 +259,8 @@ $orange 		: #ffa500;
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
-// $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
+ $anchor-font-color: $oil;
+ $anchor-font-color-hover: lighten($anchor-font-color, 20%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
