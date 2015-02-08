@@ -2440,12 +2440,12 @@ button:hover, button:focus, .button:hover, .button:focus {
 /* line 224, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary, .button.secondary {
   background-color: #e7e7e7;
-  border-color: #b9b9b9;
+  border-color: #f4f4f4;
   color: #333333;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  background-color: #b9b9b9;
+  background-color: #f4f4f4;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -2525,10 +2525,10 @@ button.small, .button.small {
 }
 /* line 232, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.tiny, .button.tiny {
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.6875rem;
-  padding-left: 1.25rem;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0.0625rem;
+  padding-left: 0;
   font-size: 0.6875rem;
 }
 /* line 233, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
@@ -2579,7 +2579,7 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 /* line 242, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
   background-color: #e7e7e7;
-  border-color: #b9b9b9;
+  border-color: #f4f4f4;
   color: #333333;
   cursor: default;
   opacity: 0.7;
@@ -2587,7 +2587,7 @@ button.disabled.secondary, button[disabled].secondary, .button.disabled.secondar
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #b9b9b9;
+  background-color: #f4f4f4;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
